@@ -28,7 +28,7 @@ cd .claude</code></pre>
     "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
     "ANTHROPIC_AUTH_TOKEN": "your_openrouter_api_key",
     "ANTHROPIC_API_KEY": "",
-    "ANTHROPIC_MODEL": "openrouter_model"
+    "ANTHROPIC_MODEL": "openrouter/free" //Replace with your open router model name
   }
 }</code></pre>
 
