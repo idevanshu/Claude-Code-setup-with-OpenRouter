@@ -6,10 +6,15 @@
 
   <h2>1. Install Claude Code</h2>
   
-  <p><b>Download via npm:</b></p>
-  <pre><code>npm install -g @anthropic-ai/claude-code</code></pre>
-  
-  <p><b>Note:</b> Requires Node.js 18+ installed on your system.</p>
+  <p><b>MacOS, Linux, WSL</b></p>
+  <pre><code>curl -fsSL https://claude.ai/install.sh | bash</code></pre>
+
+  <p><b>Windows CMD</b></p>
+  <pre><code>curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd</code></pre>
+
+  <p><b>Windows winget</b></p>
+  <pre><code>winget install Anthropic.ClaudeCode</code></pre>
+
 
   <h2>2. Create Configuration Directory</h2>
   
