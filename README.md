@@ -13,7 +13,7 @@
   <pre><code>curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd</code></pre>
 
   <p><b>Windows winget</b></p>
-  <pre><code>winget install Anthropic.ClaudeCode</code></pre>
+  <pre><code>winget install --scope machine Anthropic.ClaudeCode</code></pre>
 
 
   <h2>2. Create Configuration Directory</h2>
